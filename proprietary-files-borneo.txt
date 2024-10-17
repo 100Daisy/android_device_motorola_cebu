@@ -1,0 +1,63 @@
+# All blobs are extracted from TheMuppets/proprietary_vendor_motorola_borneo
+
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc
+vendor/etc/init/init.ets.rc
+vendor/lib64/libets_fp_et5.so
+vendor/lib64/libets_teeclient.so
+vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so
+
+# Display (Calibration Data)
+vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_720p_655.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_djnboe_720p_655.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_720p_655.xml
+
+# Sensors config
+vendor/etc/sensors/config/borneo_ak991x_0_dvt1.json
+vendor/etc/sensors/config/borneo_bmp380_0.json
+vendor/etc/sensors/config/borneo_icm4x6xx_0.json
+vendor/etc/sensors/config/borneo_icp101xx_0.json
+vendor/etc/sensors/config/borneo_lsm6dso_0.json
+vendor/etc/sensors/config/borneo_mmc5603x_0.json
+vendor/etc/sensors/config/borneo_mmc5603x_0_dvt1.json
+vendor/etc/sensors/config/borneo_tmd2755_0.json
+vendor/etc/sensors/config/borneo_tmd2755_0_dvt1.json
+vendor/etc/sensors/config/icp101xx_0.json
+vendor/etc/sensors/config/mmc5603x_0.json
+vendor/etc/sensors/config/tmd2755_0.json
+vendor/etc/thermal-engine-borneo.conf
+
+# CapSense firmware
+vendor/firmware/AbovCapSense_4.BIN
+
+# Touchscreen firmware (recovery)
+vendor/firmware/NT36xxx_MP_Setting_Criteria_601E.csv:recovery/root/vendor/firmware/NT36xxx_MP_Setting_Criteria_601E.csv
+vendor/firmware/djn_novatek_ts_fw.bin:recovery/root/vendor/firmware/djn_novatek_ts_fw.bin
+vendor/firmware/djn_novatek_ts_mp.bin:recovery/root/vendor/firmware/djn_novatek_ts_mp.bin
+vendor/firmware/focaltech_ts_fw_djnboe.bin:recovery/root/vendor/firmware/focaltech_ts_fw_djnboe.bin
+vendor/firmware/ilitek_fw.bin:recovery/root/vendor/firmware/ilitek_fw.bin
+
+# Touchscreen firmware
+vendor/firmware/NT36xxx_MP_Setting_Criteria_601E.csv
+vendor/firmware/djn_novatek_ts_fw.bin
+vendor/firmware/djn_novatek_ts_mp.bin
+vendor/firmware/focaltech_ts_fw_djnboe.bin
+vendor/firmware/ilitek_fw.bin
+
+# Camera
+vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so
+vendor/lib64/camera/com.qti.sensor.mot_s5kgm1st.so
+vendor/lib64/camera/com.qti.sensormodule.mot_borneo_ov02b10_ofilm.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_borneo_ov02b1b_ofilm.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_borneo_s5k4h7_ofilm.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_borneo_s5kgm1st_ofilm.bin
+vendor/lib64/camera/com.qti.tuned.mot_borneo_ov02b10.bin
+vendor/lib64/camera/com.qti.tuned.mot_borneo_ov02b1b.bin
+vendor/lib64/camera/com.qti.tuned.mot_borneo_s5k4h7.bin
+vendor/lib64/camera/com.qti.tuned.mot_borneo_s5kgm1st.bin
+vendor/lib64/camera/fdconfigpreview.bin
+vendor/lib64/camera/fdconfigpreviewlite.bin
+vendor/lib64/camera/fdconfigvideo.bin
+vendor/lib64/camera/fdconfigvideolite.bin
+vendor/lib64/liblowlight_ai_portrait.arcsoft.so
