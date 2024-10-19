@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cebu.mk
+    $(LOCAL_DIR)/aosp_cebu.mk

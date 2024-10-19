@@ -1,3 +1,5 @@
+sensors_class.ko
+ilitek_0flash_mmi.ko
 nova_0flash_mmi.ko
 focaltech_0flash_mmi.ko
 chipone_tddi_mmi.ko

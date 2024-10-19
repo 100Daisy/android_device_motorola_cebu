@@ -28,7 +28,7 @@ ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/sku/manifest_n.xml
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
-TARGET_KERNEL_CONFIG += vendor/ext_config/cebu-default.config
+TARGET_KERNEL_CONFIG += vendor/ext_config/cebu-default.config vendor/ext_config/borneo-default.config
 
 # Kernel Modules - Recovery
 BOARD_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
@@ -50,11 +50,11 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 70
 
 # Security patch level
-BOOT_SECURITY_PATCH := 2022-11-01
-VENDOR_SECURITY_PATCH := 2022-11-01
+BOOT_SECURITY_PATCH := 2023-02-01
+VENDOR_SECURITY_PATCH := 2023-02-01
 
 # Verified Boot
-BOARD_AVB_ROLLBACK_INDEX := 13
+BOARD_AVB_ROLLBACK_INDEX := 20
 
 # Inherit from the proprietary version
 include vendor/motorola/cebu/BoardConfigVendor.mk
